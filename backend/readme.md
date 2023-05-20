@@ -29,3 +29,17 @@
     > Note: on windows may need to run `Set-ExecutionPolicy Unrestricted -Scope Process`
 1. Install fastapi and uvicorn `pip3 install fastapi "uvicorn[standard]"`
 1. Run app `uvicorn main:app --reload`
+
+
+## Database setup
+1. Install sqlalchemy `pip install sqlalchemy psycopg2`
+1. Install dotenv `pip install python-dotenv`
+
+
+## Dependencies
+1. Save dependencies `pip freeze > requirements.txt`
+1. Install dependencies `pip install -r requirements.txt`
+
+
+## Resources
+- [Mattermost](https://mattermost.com/blog/building-a-crud-fastapi-app-with-sqlalchemy/)
