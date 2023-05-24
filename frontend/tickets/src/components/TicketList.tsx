@@ -11,8 +11,8 @@ const TicketList = () => {
     useEffect(()=>{
         const doFetch = async() => {
             try {
-                // const response = await fetch('http://localhost:8000/api/v1/tickets');
-                // const data: Ticket[] = await response.json();
+                const response = await fetch('http://localhost:8000/api/v1/tickets');
+                const data: Ticket[] = await response.json();
                 setTickets(data);
                 
             } catch (error) {
