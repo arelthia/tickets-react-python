@@ -12,7 +12,7 @@ class Priority(str, Enum):
     medium = "medium"
     high = "high"
 
-class Task(BaseModel):
+class Ticket(BaseModel):
     id: Optional[UUID] = uuid4()
     first_name: str
     last_name: str
@@ -20,7 +20,7 @@ class Task(BaseModel):
     issue: str
     priority: Optional[Priority]=Priority.low
 
-class Update_Task(BaseModel):
+class Update_Ticket(BaseModel):
     first_name: Optional[str]
     last_name: Optional[str]
     email: Optional[str]

@@ -29,3 +29,4 @@
     > Note: on windows may need to run `Set-ExecutionPolicy Unrestricted -Scope Process`
 1. Install fastapi and uvicorn `pip3 install fastapi "uvicorn[standard]"`
 1. Run app `uvicorn main:app --reload`
+
