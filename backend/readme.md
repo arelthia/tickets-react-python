@@ -35,3 +35,8 @@
 1. Install dependencies `pip install -r requirements.txt`
 
 
+## Tests
+1. To run tests `python -m pytest tests/`
+1. To run tests with coverage `python -m pytest --cov=main  tests/`
+    
+
